@@ -81,15 +81,15 @@ export function Story() {
         </div>
 
         {/* Collage */}
-        <div className="grid auto-rows-[9rem] grid-cols-2 gap-3 sm:auto-rows-[12rem] sm:gap-4 lg:col-span-6 lg:auto-rows-[11rem] lg:self-center">
-          <figure className="reveal relative col-span-2 row-span-2 overflow-hidden rounded-3xl">
-            <Image src={gallery} alt="A bright dining room lined with colourful paintings by local artists" fill placeholder="blur" sizes="(min-width: 1024px) 46vw, 92vw" className="object-cover" />
+        <div className="stagger grid auto-rows-[9rem] grid-cols-2 gap-3 sm:auto-rows-[12rem] sm:gap-4 lg:col-span-6 lg:auto-rows-[11rem] lg:self-center">
+          <figure className="reveal reveal-img relative col-span-2 row-span-2 overflow-hidden rounded-3xl">
+            <Image src={gallery} alt="A bright dining room lined with colourful paintings by local artists" fill placeholder="blur" sizes="(min-width: 1024px) 46vw, 92vw" className="parallax object-cover" />
             <figcaption className="absolute bottom-3 left-3 rounded-full bg-paper/90 px-3 py-1 text-xs font-semibold">The gallery room</figcaption>
           </figure>
-          <figure className="reveal arch relative row-span-2 overflow-hidden">
+          <figure className="reveal reveal-img arch relative row-span-2 overflow-hidden">
             <Image src={mirror} alt="Two guests posing at the mirror reading 'Rooted in love, rooted in legacy' in the garden" fill placeholder="blur" sizes="(min-width: 1024px) 23vw, 46vw" className="object-cover" />
           </figure>
-          <figure className="reveal relative row-span-2 overflow-hidden rounded-3xl">
+          <figure className="reveal reveal-img relative row-span-2 overflow-hidden rounded-3xl">
             <Image src={facade} alt="The sage-green Café 10/23 sign beside the terracotta breeze-block wall" fill placeholder="blur" sizes="(min-width: 1024px) 23vw, 46vw" className="object-cover" />
           </figure>
         </div>

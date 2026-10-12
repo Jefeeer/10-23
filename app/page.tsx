@@ -9,6 +9,7 @@ import { Events } from "@/components/events";
 import { Visit } from "@/components/visit";
 import { SiteFooter } from "@/components/site-footer";
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
+import { ScrollReveal } from "@/components/scroll-reveal";
 import { cafeSchema } from "@/lib/schema";
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
       </main>
       <SiteFooter />
       <MobileCtaBar />
+      <ScrollReveal />
     </>
   );
 }

@@ -26,7 +26,7 @@ export function Events() {
               ))}
             </ul>
             <div className="reveal relative mt-2 hidden aspect-[16/10] overflow-hidden rounded-3xl lg:block">
-              <Image src={crowd} alt="Guests gathered on the garden lawn during the café's first anniversary" fill placeholder="blur" sizes="40vw" className="object-cover" />
+              <Image src={crowd} alt="Guests gathered on the garden lawn during the café's first anniversary" fill placeholder="blur" sizes="40vw" className="parallax object-cover" />
             </div>
           </div>
 

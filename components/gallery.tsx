@@ -38,9 +38,9 @@ export function Gallery() {
         </TrackedLink>
       </div>
 
-      <div className="grid auto-rows-[8.5rem] grid-cols-2 gap-3 sm:auto-rows-[11rem] sm:grid-cols-3 sm:gap-4 lg:auto-rows-[13rem] lg:grid-cols-4">
+      <div className="stagger grid auto-rows-[8.5rem] grid-cols-2 gap-3 sm:auto-rows-[11rem] sm:grid-cols-3 sm:gap-4 lg:auto-rows-[13rem] lg:grid-cols-4">
         {shots.map((s) => (
-          <figure key={s.alt} className={`reveal group relative overflow-hidden rounded-3xl bg-blush ${s.span}`}>
+          <figure key={s.alt} className={`reveal reveal-img group relative overflow-hidden rounded-3xl bg-blush ${s.span}`}>
             <Image
               src={s.src}
               alt={s.alt}

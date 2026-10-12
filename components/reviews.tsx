@@ -40,7 +40,7 @@ export function Reviews() {
         )}
 
         {/* Press headlines as clippings */}
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="stagger grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {press.map((p, i) => (
             <li key={p.outlet} className={`reveal ${i % 2 ? "lg:translate-y-6" : ""}`}>
               <a

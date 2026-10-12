@@ -12,7 +12,7 @@ export function Hero() {
     <section id="top" className="relative overflow-hidden">
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 pt-8 pb-14 sm:px-6 sm:pt-12 lg:grid-cols-12 lg:gap-8 lg:pt-16 lg:pb-24">
         {/* Copy */}
-        <div className="flex flex-col gap-6 lg:col-span-6 lg:pr-6">
+        <div className="hero-in flex flex-col gap-6 lg:col-span-6 lg:pr-6">
           <div className="self-start">
             <OpenBadge />
           </div>
@@ -71,7 +71,7 @@ export function Hero() {
         </div>
 
         {/* Visual */}
-        <div className="relative mx-auto w-full max-w-[34rem] lg:col-span-6 lg:max-w-none">
+        <div className="hero-pop relative mx-auto w-full max-w-[34rem] lg:col-span-6 lg:max-w-none">
           <div aria-hidden="true" className="breeze absolute -top-4 -right-4 h-2/3 w-2/3 rounded-[2rem] opacity-90 sm:-top-6 sm:-right-6" />
           <div aria-hidden="true" className="absolute -bottom-6 -left-10 size-56 rounded-full bg-sage/70 blur-0" />
 
@@ -83,7 +83,7 @@ export function Hero() {
               preload
               placeholder="blur"
               sizes="(min-width: 1024px) 560px, (min-width: 640px) 34rem, 92vw"
-              className="object-cover"
+              className="parallax object-cover"
             />
           </div>
 

@@ -103,7 +103,7 @@ export function MenuSection() {
         </div>
 
         <div className="flex flex-col md:col-span-7">
-          <ul className="divide-y divide-espresso/10">
+          <ul key={cat.id} className="tab-fade divide-y divide-espresso/10">
             {cat.items.map((item) => (
               <ItemRow key={item.name} item={item} />
             ))}
