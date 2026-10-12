@@ -1,12 +1,13 @@
 {
-  "name": "site",
+  "name": "ten-twentythree",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:hours": "node scripts/hours.check.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
